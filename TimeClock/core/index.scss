@@ -1,0 +1,103 @@
+﻿.clockAnimation {
+    position: absolute;
+    left: 58%;
+}
+
+#back {
+    background-color: #0E2434;
+}
+
+.button {
+    border-radius: 10px;
+    font-family: cursive;
+    background: white;
+    width: 30%;
+    height: 60px;
+    font-size: 20px;
+    border-bottom: groove;
+    color: green;
+}
+
+button:hover {
+    background: #25bee2;
+    color: white;
+    border-bottom: solid;
+}
+
+button:disabled:hover {
+    color: red;
+    background: white;
+}
+
+button:disabled {
+    border-radius: 10px;
+    font-family: cursive;
+    background: white;
+    width: 30%;
+    height: 60px;
+    font-size: 20px;
+    border-bottom: groove;
+    color: gray;
+}
+
+.buttonTimePicker {
+    border-radius: 10px;
+    font-family: cursive;
+    background: white;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-bottom: groove;
+    color: #0E2434;
+}
+
+buttonTimePicker:hover {
+    background: #25bee2;
+    color: white;
+    border-bottom: solid;
+}
+
+.td {
+    border-left-color: black;
+    color: white;
+}
+
+.tabbs {
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+tabbs:hover {
+    background: green;
+}
+
+.PageAnimation {
+    width: 500px;
+    height: 500px;
+}
+
+    .PageAnimation.ng-enter {
+        transition: 1.5s linear all;
+        left: -40%;
+    }
+
+        /* The starting CSS styles for the enter animation */
+        .PageAnimation.ng-enter.ng-enter-active {
+            left: 0%;
+            position: absolute;
+        }
+
+    .PageAnimation.ng-leave {
+        transition: 1.5s linear all;
+        left: 0%;
+        opacity: 1;
+    }
+
+        .PageAnimation.ng-leave.ng-leave-active {
+            position: absolute;
+            left: -40%;
+            opacity: 0;
+        }

@@ -1,0 +1,75 @@
+﻿@charset "UTF-8";
+/*animation dfenition*/
+.animate-repeat {
+  width: 200px;
+  height: 50px;
+  border: #b90101;
+  color: white;
+  opacity: 0; }
+
+/*animation enter*/
+.animate-repeat.ng-enter {
+  transition-delay: 1s;
+  transition: 3s;
+  /*מספר שניות*/
+  opacity: 1; }
+
+/*during animation animation*/
+.animate-repeat.ng-enter-active {
+  opacity: 0;
+  color: white; }
+
+.message {
+  font-size: 24px;
+  background-color: #EA1F36;
+  width: 50%;
+  height: 25%;
+  left: 2%;
+  text-align: center; }
+
+/*animation dfenition*/
+.animate-repeat {
+  width: 200px;
+  height: 50px;
+  border: #b90101;
+  color: white;
+  opacity: 0; }
+
+/*animation enter*/
+.animate-repeat.ng-enter {
+  transition-delay: 1s;
+  transition: 3s;
+  /*מספר שניות*/
+  opacity: 1; }
+
+/*during animation animation*/
+.animate-repeat.ng-enter-active {
+  opacity: 0;
+  color: white; }
+
+.myFadeAnimation {
+  margin-top: 30px;
+  position: relative;
+  width: 80%;
+  height: 430px;
+  left: 5%; }
+
+.myFadeAnimation.ng-enter {
+  transition: 1s linear all;
+  opacity: 0;
+  left: -40%; }
+
+/* The starting CSS styles for the enter animation */
+.myFadeAnimation.ng-enter.ng-enter-active {
+  opacity: 1;
+  left: 5%; }
+
+.myFadeAnimation.ng-leave {
+  transition: 1s linear all;
+  opacity: 1;
+  left: 5%; }
+
+.myFadeAnimation.ng-leave.ng-leave-active {
+  opacity: 0;
+  left: -40%; }
+

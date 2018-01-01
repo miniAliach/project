@@ -1,0 +1,38 @@
+﻿[
+  {
+    "outputFile": "Style/StyleSheet1.css",
+    "inputFile": "Style/StyleSheet1.scss"
+  },
+  {
+    "outputFile": "Style/clockStyle.css",
+    "inputFile": "Style/clockStyle.scss"
+  },
+  {
+    "outputFile": "Style/clockStyle1.css",
+    "inputFile": "Style/clockStyle1.scss"
+  },
+  {
+    "outputFile": "Style/clockStyle2.css",
+    "inputFile": "Style/clockStyle2.scss"
+  },
+  {
+    "outputFile": "Style/demo.css",
+    "inputFile": "Style/demo.scss"
+  },
+  {
+    "outputFile": "core/homePage/homePage.css",
+    "inputFile": "core/homePage/homePage.scss"
+  },
+  {
+    "outputFile": "core/login/login.css",
+    "inputFile": "core/login/login.scss"
+  },
+  {
+    "outputFile": "core/index.css",
+    "inputFile": "core/index.scss"
+  },
+  {
+    "outputFile": "core/schedule/schedule.css",
+    "inputFile": "core/schedule/schedule.scss"
+  }
+]

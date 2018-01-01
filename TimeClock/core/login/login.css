@@ -1,0 +1,103 @@
+﻿.div2-login {
+  height: 50%;
+  width: 100%;
+  background: #151788;
+  position: fixed;
+  bottom: 0; }
+
+.form-container {
+  float: none;
+  margin: auto;
+  padding-top: 40px;
+  font-family: cursive; }
+
+.login .form-container {
+  height: 479px;
+  padding-top: 71px; }
+
+.form-container .form-group {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.form-container .form-control {
+  color: #555; }
+
+@media screen and (min-width: 1171px) and (max-width: 1700px) {
+  .form-container .col-lg-2 {
+    width: 20%; } }
+
+.btn-login {
+  background: #e0b62e;
+  border: 1px solid #e0b62e;
+  color: #FFF;
+  margin: auto;
+  height: 40px;
+  transition: all 0.65s ease; }
+
+.btn-login:hover {
+  border-color: #dcb020;
+  background: #e5af0f;
+  color: #FFF; }
+
+.btn-login:focus {
+  background: #cc9611;
+  color: #FFF; }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: #fafafa !important;
+  fill: #fafafa !important;
+  color: #555 !important; }
+
+.form-control::-webkit-input-placeholder {
+  color: #aaa !important; }
+
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #aaa !important; }
+
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #aaa !important; }
+
+.form-control:-ms-input-placeholder {
+  color: #aaa !important; }
+
+.content {
+  margin: 0 auto;
+  padding: 0 2em;
+  max-width: 800px;
+  margin-bottom: 50px;
+  line-height: 2em; }
+
+.header {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center; }
+
+.header h1 {
+  font-size: 300%;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 40px; }
+
+.header small {
+  font-size: 16px; }
+
+legend {
+  font-weight: 100;
+  font-family: cursive;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 70px;
+  line-height: inherit;
+  color: white;
+  border: 0;
+  border-bottom: 2px solid #e5e5e5;
+  text-align: center;
+  margin-right: 6.5%; }
+

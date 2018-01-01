@@ -1,0 +1,34 @@
+﻿<div ng-controller="homePageCtrl">
+
+    <div style="width:100%; height:40%; float:right;margin-top:5%;">
+        <div style="text-align:center; margin-top:50px; border-radius:10px; background: #80817F;">
+            <br />
+            <button class="button nav nav-tabs" ng-init="Exit=false" ng-disabled="Exit==true" ng-click="Enter=true; isEnter=true; ">
+                Insert Entry Time
+            </button>
+            <button class="button" ng-disabled="Exit==false" ng-click="isEnter=true">
+               Insert Exit time
+            </button>
+           
+        </div>
+        <br />
+<br />
+        <div style="height:100%">
+            <div style="margin-left:2%;">
+                <div ng-if="Enter==false" class="message animate-repeat" style="width: 80%; margin-top: 30px; font-family:cursive">
+                    GoodBye! You worked {{SumHours}} hours!.
+                </div>
+            </div>
+            <div class="myFadeAnimation" ng-if="isEnter==true">
+                <div class="message" style="width: 100%; color: white;">
+                    <br />
+                    <!--show start message when is enter-->
+                    <div ng-if="Enter==true" style="font-family:cursive">Hello, have a nice day!</div>
+                    <br />
+                    <time-dir timetype="enterTime" ng-if="isEnter==true" timefunction="saveEnterOrExit(enterTime)" back="out()"></time-dir>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+     </div>

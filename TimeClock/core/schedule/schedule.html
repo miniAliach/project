@@ -1,0 +1,26 @@
+﻿<div ng-controller="scheduleCtrl">
+    <div style="width:100%; height:40%; float:right;margin-top:5%;">
+        <div style="text-align:center;margin-top: 50px; background: #80817F; border-radius: 10px;">
+            <br />
+            <button class="button" ng-click="TableLoad();ShowDetails=true; month=false">Show Schedule</button> &nbsp; &nbsp; &nbsp; &nbsp; 
+            <input  type="text" class="input nav nav-tabs" id="searchInput" placeholder="Search by month..." ng-model="search" ng-change="filter()"/>
+            <br />
+            <br />
+        </div>
+
+        <table border="1" style="width: 84%; text-align: center" ng-if="ShowDetails==true">
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Status</th>
+            </tr>
+            <tr ng-repeat="item in scheduleArr">
+                <td class="td">{{item.date|date:"dd//MM//yyyy"}}</td>
+                <td class="td">{{item.time|date:"hh:mm"}}</td>
+                <td class="td">{{item.status}}</td>
+            </tr>
+        </table>
+
+        <h2 ng-if="ShowDetails">&nbsp;&nbsp;&nbsp; Summary hours:{{hoursSummary}} hours!.</h2>
+    </div>
+</div>
